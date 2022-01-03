@@ -1,11 +1,9 @@
 
 
+export default function Pratique () {
 
 
-export default function pratique () {
-
-
-
+return(
     <div>Choisissez un nombre d'images a afficher
     <form  >   
         <select >  
@@ -15,6 +13,7 @@ export default function pratique () {
             <option value="9"  id={2}>9</option>
         </select>
     </form>
-    </div>
 
+    </div>
+);
 }
