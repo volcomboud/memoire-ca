@@ -18,5 +18,25 @@ export const people = [{
     id: 4, // Used in JSX as a key
     name: 'Subrahmanyan Chandrasekhar',
     imageId: 'https://i.imgur.com/lrWQx8ls.jpg'
-  }];
+  }, {
+    id: 5, // Used in JSX as a key
+    name: 'Lin Lanying',
+    imageId: 'https://i.imgur.com/1bX5QH6.jpg'
+  }, {
+    id: 6, // Used in JSX as a key
+    name: 'Katsuko Saruhashi',
+    imageId: 'https://i.imgur.com/YfeOqp2s.jpg'
+  }, {
+    id: 7, // Used in JSX as a key
+    name: 'Maria Skłodowska-Curie',
+    imageId: 'https://i.imgur.com/szV5sdGs.jpg'
+  }, {
+    id: 8, // Used in JSX as a key
+    name: 'Gregorio Y. Zara',
+    imageId: 'https://i.imgur.com/7vQD0fPs.jpg'
+  }
+
+
+
+];
   

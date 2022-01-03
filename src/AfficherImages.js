@@ -1,6 +1,8 @@
 import { people } from './data.js';
 
+
 export default function AfficherImages() {
+
   const listItems = people.map(person =>
     <div key={person.id}>
       <img
@@ -12,4 +14,5 @@ export default function AfficherImages() {
     </div>
   );
   return <ul>{listItems}</ul>;
+  
 }
