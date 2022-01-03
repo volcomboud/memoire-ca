@@ -1,5 +1,6 @@
 import { people } from './data.js';
-import React from 'react'
+import React from 'react';
+
 
 export default function AfficherImages() {
   
@@ -21,9 +22,12 @@ export default function AfficherImages() {
                           height={100}
                         />
             </>
-
   );
-  return <ul>{listItems}</ul>;
+  return (
+  <> 
+  <ul>{listItems}</ul>
+    </> 
+    )
   
 } //AfficherImages
 
