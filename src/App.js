@@ -15,6 +15,8 @@ export default function App(){
     <Pratique/>
     <RandomCallout/>
     <AfficherImages onClick={guess}/>
+    <AfficherImages onClick={guess}/>
+    <AfficherImages onClick={guess}/>
     <GuessCorrect/>
     </>
   );

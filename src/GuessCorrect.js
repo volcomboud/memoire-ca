@@ -3,12 +3,8 @@ import RandomCallout from "./RandomCallout";
 
 export default function GuessCorrect ({guess}) {
 
-
-
-  
-
     return (
-         guess === <RandomCallout/> ? <h2>Well Done! </h2>: 'Try Again!' 
+         guess === <RandomCallout/> ? <h2> Well Done! </h2>: <h2> 'Try Again!'  </h2>
 
     );
 }
