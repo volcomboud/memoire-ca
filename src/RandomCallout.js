@@ -2,7 +2,7 @@ import { useState } from 'react';
 import { people } from './data.js';
 
 export default function RandomCallout() {
-    const [isActive, setIsActive] = useState(false);
+   // const [isActive, setIsActive] = useState(false);
     
 
     function getRandomInt(max){
@@ -22,8 +22,6 @@ export default function RandomCallout() {
             );
     
     return ( 
-        
-            <h1> {calledOut}</h1>
-
+            <p>  {calledOut}  </p>
     );
 }
